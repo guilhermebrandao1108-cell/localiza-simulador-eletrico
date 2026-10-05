@@ -1,0 +1,11 @@
+{
+  "name": "localiza-simulador-eletrico",
+  "version": "2.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Simulador que mostra se um carro elétrico por assinatura compensa financeiramente na rotina do cliente.",
+  "scripts": {
+    "test": "node --test tests/",
+    "update:energy": "node scripts/update-energy-tariffs.mjs"
+  }
+}
